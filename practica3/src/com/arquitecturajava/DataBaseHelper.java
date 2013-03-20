@@ -19,7 +19,7 @@ public class DataBaseHelper<T> {
 	private static final String DRIVER = "com.mysql.jdbc.Driver";
 	private static final String URL = "jdbc:mysql://localhost/arquitecturajava";
 	private static final String USUARIO = "root";
-	private static final String CLAVE = "java";
+	private static final String CLAVE = "";
 
 	public int modificarRegistro(String consultaSQL) {
 		Connection conexion = null;
@@ -52,7 +52,7 @@ public class DataBaseHelper<T> {
 		return filasAfectadas;
 	}
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings("unchecked") //Muestra advertencias si no se usa.
 	public List<T> seleccionarRegistros(String consultaSQL, Class<T> clase) {
 		Connection conexion = null;
 		Statement sentencia = null;
