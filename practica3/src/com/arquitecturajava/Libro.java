@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Libro {
 	private String isbn;
-	private String  titulo;
+	private String titulo;
 	private String categoria;
 	
 	public String getIsbn() {

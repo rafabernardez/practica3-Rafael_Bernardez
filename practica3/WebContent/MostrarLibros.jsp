@@ -22,13 +22,11 @@
 		List<Libro> listaDeLibros=null;
 		listaDeLibros=Libro.buscarTodos();
 			 for(Libro libro:listaDeLibros){ %>
-			 
 				 <%=libro.getIsbn()%>
 				  <%=libro.getTitulo()%>
 				   <%=libro.getCategoria()%>
 					<br/>
-			<% } 
-		%>
+			<% } %>
 		<a href="FormularioInsertarLibro.jsp">Insertar Libro</a>
 	</body>
 </html>
