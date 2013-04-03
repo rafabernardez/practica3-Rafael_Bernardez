@@ -3,8 +3,10 @@
   <groupId>practica3</groupId>
   <artifactId>practica3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <finalName>practica3-RafaelBernardez</finalName>
     <plugins>
       <plugin>
 			<artifactId>maven-compiler-plugin</artifactId>
